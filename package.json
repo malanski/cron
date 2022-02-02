@@ -1,5 +1,5 @@
 {
-  "homepage": "https://malanski.github.io/cron/",
+  "homepage": "http://malanski.github.io/cron/",
   "name": "cron",
   "author": "Ulisses Malanski",
   "version": "0.1.0",
@@ -42,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "2.0.1"
   }
 }
