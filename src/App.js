@@ -45,65 +45,66 @@ function App() {
 	}, [running, paused]);
 
 	return (
-				<div className="App">
+			<div className="App">
 				<div className='cron-app'>
 
-				<div className="social-media">
-					<a href="https://github.com/malanski" title="github">
-						<i className="socialfoot fab fa-github"></i>
-					</a>
-					<a href="https://www.linkedin.com/in/ulisses-malanski" title="linkedin">
-						<i className="socialfoot fab fa-linkedin"></i>
-					</a>
-					<a href="https://www.facebook.com/ulisses.malanski/" title="facebook">
-						<i className="socialfoot fab fa-facebook-square"></i>
-					</a>
-					<a href="https://www.instagram.com/ulissesmalanski_tattoo/" title="instagram">
-						<i className="socialfoot fab fa-instagram"></i>
-					</a>
+					<div className="social-media">
+						<a href="https://github.com/malanski" title="github">
+							<i className="socialfoot fab fa-github"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/ulisses-malanski" title="linkedin">
+							<i className="socialfoot fab fa-linkedin"></i>
+						</a>
+						<a href="https://www.facebook.com/ulisses.malanski/" title="facebook">
+							<i className="socialfoot fab fa-facebook-square"></i>
+						</a>
+						<a href="https://www.instagram.com/ulissesmalanski_tattoo/" title="instagram">
+							<i className="socialfoot fab fa-instagram"></i>
+						</a>
+					</div>
+
+					<h1>Cron</h1>
+
+					<Digits time={time} />
+
+					<div className='actions'>
+						<Button onClicou={start} disabled={running} className='btn btn-start'>
+							Start
+						</Button>
+						<Button onClicou={pause} disabled={paused} className='btn btn-stop'>
+							Stop
+						</Button>
+						<Button onClicou={reset} disabled={time === 0} className='btn btn-reset'>
+							Reset
+						</Button>
+					</div>
+
+					<div class="links">
+					<h4>Links to Other Projects by Ulisses Malanski</h4>
+					<ul class="projects">
+						<li>
+							<a href="https://malanski.github.io/pokeLoja2/" title="My Firts project">E-commerce Pokémon Card Game</a>
+						</li>
+						<li>
+						<a href="https://malanski.github.io/Poke-Loja-3/" title="JavaScript HTML SCSS">E-commerce Pokémon Store</a>
+						</li>
+						<li>
+							<a href="https://malanski.github.io/pokestore-react/" title="JavaScript and React-App Project">React E-commerce Pokéstore</a>
+						</li>
+						<li>
+							<a href="https://malanski.github.io/MyResume/" title="A short personal Resume">My Resume</a>
+						</li>
+						<li>
+							<a href="https://malanski.github.io/CalculatorX/" title="JavaScript Calculator study">Calculator</a>
+						</li>
+						<li>
+							<a href="https://malanski.github.io/DrumKit/" title="JavaScript study Drum Kit">Drum Kit</a>
+						</li>
+					</ul>
+					<h4 className='dev-xp'>Web developed with:<br>
+						</br>React + JavaScript + HTML + CSS
+					</h4>
 				</div>
-
-				<h1>Cron</h1>
-
-				<Digits time={time} />
-
-				<div className='actions'>
-					<Button onClicou={start} disabled={running} className='btn btn-start'>
-						Start
-					</Button>
-					<Button onClicou={pause} disabled={paused} className='btn btn-stop'>
-						Stop
-					</Button>
-					<Button onClicou={reset} disabled={time === 0} className='btn btn-reset'>
-						Reset
-					</Button>
-				</div>
-
-				<div class="links">
-				<h4>Links to Other Projects by Ulisses Malanski</h4>
-				<ul class="projects">
-					<li>
-						<a href="https://malanski.github.io/pokeLoja2/" title="My Firts project">E-commerce Pokémon Card Game</a>
-					</li>
-					<li>
-					<a href="https://malanski.github.io/Poke-Loja-3/" title="JavaScript HTML SCSS">React E-commerce Pokéstore</a>
-					</li>
-					<li>
-						<a href="https://malanski.github.io/pokestore-react/" title="JavaScript and React-App Project">React E-commerce Pokéstore</a>
-					</li>
-					<li>
-						<a href="https://malanski.github.io/MyResume/" title="A short personal Resume">My Resume</a>
-					</li>
-					<li>
-						<a href="https://malanski.github.io/CalculatorX/" title="JavaScript Calculator study">Calculator</a>
-					</li>
-					<li>
-						<a href="https://malanski.github.io/DrumKit/" title="JavaScript study Drum Kit">Drum Kit</a>
-					</li>
-				</ul>
-				<h4>Web developed with<br></br>React + JavaScript + HTML + CSS</h4>
-			</div>
-
 			</div>
 		</div>
 	);
