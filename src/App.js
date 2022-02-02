@@ -83,10 +83,13 @@ function App() {
 				<h4>Links to Other Projects by Ulisses Malanski</h4>
 				<ul class="projects">
 					<li>
-						<a href="https://malanski.github.io/pokeLoja2/" title="My Firts project">Ecommerce Card Game</a>
+						<a href="https://malanski.github.io/pokeLoja2/" title="My Firts project">E-commerce Pokémon Card Game</a>
 					</li>
 					<li>
-						<a href="https://malanski.github.io/Poke-Loja-3/" title="A different approach ">Ecommerce Clean</a>
+					<a href="https://malanski.github.io/Poke-Loja-3/" title="JavaScript HTML SCSS">React E-commerce Pokéstore</a>
+					</li>
+					<li>
+						<a href="https://malanski.github.io/pokestore-react/" title="JavaScript and React-App Project">React E-commerce Pokéstore</a>
 					</li>
 					<li>
 						<a href="https://malanski.github.io/MyResume/" title="A short personal Resume">My Resume</a>
@@ -98,6 +101,7 @@ function App() {
 						<a href="https://malanski.github.io/DrumKit/" title="JavaScript study Drum Kit">Drum Kit</a>
 					</li>
 				</ul>
+				<h4>Web developed with<br></br>React + JavaScript + HTML + CSS</h4>
 			</div>
 
 			</div>
