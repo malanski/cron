@@ -35,10 +35,10 @@ h1{
 }
 .digits {
 	background: black;
-	font-size: 60px;
+	font-size: 30px;
 	font-family: Digital-7;
 	text-shadow: 1px 1px 6px rgb(205, 255, 131);
-	color: greenyellow;
+	color: rgb(210, 250, 163);
 	font-weight: bold;
 	display: flex;
 	align-items: center;
@@ -54,6 +54,7 @@ h1{
 	padding-right: 5px;
 	padding-left: 5px;
 }
+.digits #minutes:before,
 .digits #seconds:before,
 .digits #seconds:after {
 	content: " : ";
@@ -72,6 +73,8 @@ h1{
 	width: 75px;
 	padding-right: 5px;
 	padding-left: 5px;
+	/* letter-spacing: 5px; */
+
 }
 
 .actions{

@@ -5,6 +5,9 @@ export function Digits({ time }) {
     return (
         <div className='digits'>
             <CronNumber
+                id='hours'
+                number={Math.floor((time/ 3600000) % 60)}/>
+            <CronNumber
                 id='minutes'
                 number={Math.floor((time/ 60000) % 60)}/>
             <CronNumber
