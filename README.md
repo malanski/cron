@@ -12,7 +12,7 @@ Web Development Couse at Awari School
 - Design a CSS style 
 - Deploy on gh-pages trough a:`npm run deploy` 
 
-With this project I have learned how to use 
+With this project I have learned how to use a javaScript code to count seconds, minutes and hours. as long the page stays open, in order to save background processing.
 
 ### Front-end Tecnologies in this project:
 - React  
